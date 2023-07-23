@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+.conten {
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 1500px;
+    background: rgb(137,140,125);
+background: linear-gradient(71deg, rgba(137,140,125,1) 1%, rgba(171,172,164,1) 15%, rgba(211,215,195,1) 51%, rgba(103,99,99,1) 74%, rgba(69,77,46,1) 100%);
+    position: absolute;
+}
+p {
+      font-family: Arial, Helvetica, sans-serif;
+}
+/* header */
+.banner {
+    width: 1500px;
+
+}
+/* phần chính */
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
+
+.chon_khu_vuc {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-left: 16px;
+    text-align: center;
+    margin: auto;
+
+}
+
+.khu_vuc {
+    position: relative;
+    margin-bottom: 120px;
+}
+.khu_vuc img:hover {
+    transform: scale(1.2);
+}
+
+.anh_khu_vuc {
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    border-color: black;    
+    filter:brightness(80%);
+    transition-duration: 0.3s;
+}
+
+.ten_khu_vuc {
+    color: #00ffea;
+    font-size: large;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition-duration: 0.3s;
+}
+/* footer  */
+.footer {
+    height: 175px;
+    background-color: rgb(167, 167, 167);
+    justify-content: space-between;
+    display: flex;
+
+}
+.feed_back_button {
+    width: 150px;
+    height: 40px;
+    margin-top: 40px;
+    margin-right: 40px;
+    color: black;
+    background-color: orange;
+}
+/* /////////// */
+body {
+    background: rgb(133,47,182);
+    background: linear-gradient(40deg, rgba(133,47,182,1) 9%, rgba(61,82,195,1) 26%, rgba(55,205,185,1) 50%, rgba(128,229,101,1) 77%, rgba(253,249,29,1) 100%);
+    margin: 0;
+    font-family: arial;
+    font-size: 1.2em;
+    color: #111;
+   }
+       
+   .wrapper {
+    max-width: 960px;
+    margin: 10% auto;
+    text-align: center;
+    line-height: 2em;
+   }
+       
+   .buttonXmas {
+    border: 3px solid #111;
+    padding: 10px;
+    color: #111;
+    text-decoration: none;
+    background-color: orange;
+    color: black;
+    font-size: larger;
+    margin-top: 100px;
+    margin-right: 50px;
+   }
+       
+   
+   .popup {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.6);
+    display: none;
+   }
+   
+   #xmas-popup .popup-content{
+    width: 600px;
+    height: 600px;
+    background: #bbb;
+    margin: 100px auto;
+    position: relative;
+    border: 5px solid #fff;
+   }
+   
+   .close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border-radius: 50%;
+    background: #222;
+    border: 3px solid #fff;
+    color: #fff;
+    text-decoration: none;
+    line-height: 0;
+    padding: 9px 0 11px;
+    width: 20px;
+    text-align: center;
+   }
+       
+   .popup:target {
+     display: block;
+   }
+   
+/* thong bao feed back  */
+.feed_back_thongbao_h2 {
+    font-size: larger;
+}
+.feed_back_thongbao_p {
+    text-align: center;
+
+}
+.feed_back_input input {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    width: 577px;
+    height: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    display:block;
+
+}
+.uy_tin {
+    width: 577px;
+    height: 300px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.gui {
+    background:orange;
+    color: #000000;
+    text-decoration: none;
+    line-height: 0;
+    padding: 10px 20px ;
+    width: 20px;
+    text-align: center;
+    margin-left : 280px;
+    border-color: #111;
+    border-radius: 20px;
+}
+
